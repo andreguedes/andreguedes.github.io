@@ -1,0 +1,410 @@
+/*******Styles for mobile and tablet resolutions*****/
+
+@media (max-width: 949px ) and (min-width: 767px) {
+    #page {
+		padding-top: 100px;
+        max-width: 750px;
+		font-size: 14px;
+		line-height: 17px;
+    }
+    #profile_photo {
+    	width: 125px;
+    	min-height: 125px;
+    }
+    #profile_name {
+    	width: 250px;
+    }
+    #nav_tabs li {
+    	width: 125px;
+    }
+    #nav_tabs li a {
+    	height: 125px;
+    }
+    #profile_name .name {
+    	font-size: 36px;
+    	line-height: 36px;
+    }
+    #profile_name {
+    	height: 125px;
+    }
+    #profile_name .profile_inner {
+    	padding: 15px 20px;
+    }
+    #profile_name .name {
+    	margin-bottom: 3px;
+    }
+    #profile_name .pos {
+    	font-size: 14px;
+    }
+    #splash .social_links ul li a {
+    	height: 125px;
+    	width: 125px;
+    }
+    #splash .social_links {
+    	width: 250px;
+    }
+    .author_info .user_desc {
+    	font-size: 20px;
+    	line-height: 24px;
+    }
+    .author_info {
+    	max-width: 436px;
+    	padding: 24px 32px 18px 32px;
+    }
+    .author_info .user_desc {
+    	padding: 0 20px 0 10px;
+    }
+    .author_info .user_desc {
+    	margin-bottom: 17px;
+    }
+    .phone_num .phone {
+    	font-size: 30px;
+    	line-height: 36px;
+    }
+    .phone_num .phone {
+    	padding-top: 12px;
+    	padding-bottom: 3px;
+    }
+    .addition span {
+    	line-height: 18px;
+    	font-size: 14px;
+    }
+    .addition {padding-top: 6px;}
+    #nav_tabs li a span {
+    	top: 13px;
+    	left: 38px;
+    }
+    #nav_tabs li.portfolio a span {top: 14px;}
+    #nav_tabs li.contacts a span {
+    	left: 38px;
+    }
+   	#splash .social_links ul li a span {
+   		padding-top: 5px;
+   	}
+   	.skills_sidebar_section {
+   		padding: 38px 39px 30px 42px;
+   	}
+   	.skills_sidebar_section aside.widget {
+   		width: 314px;
+   		margin: 0 41px 20px 0;
+   	}
+   	.resume_post .resume_period {
+   		width: 125px;
+   	}
+   	.resume_post .extra_wrap {
+   		padding: 20px 0 0 20px;
+   	}
+   	.resume_post .resume_header .post_title {
+   		font-size: 14px;
+   		line-height: 20px;
+   		padding-left: 45px;
+   	}
+   	.resume_post .resume_header .resume_position {
+   		font-size: 14px;
+   		line-height: 20px;
+   		padding-left: 45px;
+   	}
+  	.resume_post .extra_wrap .resume_header {
+  		margin-bottom: 11px;
+   		padding-right: 19px;
+   	}
+   	#resume .section-header {
+   		padding: 38px 38px 27px;
+   	}
+   	.resume_post .resume_period {
+   		font-size: 14px;
+   		line-height: 17px;
+   		padding-top: 45px;
+   	}
+   	.resume_post .resume_content {
+   		padding-bottom: 20px;
+   	}
+   	.skills_sidebar_section aside.widget h3 {
+   		font-size: 14px;
+   		line-height: 17px;
+   		margin-bottom: 15px;
+   	}
+   	#portfolio .portfolio_items article.portfolio_post {
+   		width: 250px;
+   		height: 167px;
+   	}
+   	#portfolio_iso_filters {
+   		padding: 39px 40px 40px;
+   	}
+   	.contacts_wrapper .col1 {
+   		padding-top: 42px;
+   	}
+   	.addition {
+   		margin-bottom: 25px;
+   	}
+   	.contacts_wrapper .col2 .inner {
+   		padding: 35px 42px 42px;
+   	}
+   	#toTop {display: none !important;}
+}
+
+@media (max-width: 767px) {
+	#page {
+		padding-top: 75px;
+		width: 450px;
+	}
+	#nav_tabs li.splash + li {
+		clear: both;
+	}
+	.author_info {
+		max-width: none;
+		width: auto;
+		float: left;
+	}
+	#splash .social_links ul li a {
+		width: 225px;
+	}
+	#splash .social_links {
+		float: none;
+		width: 100%;
+		clear: both;
+	}
+	.author_info .user_desc {
+		padding-right: 0;
+		margin-bottom: 26px;
+	}
+	#portfolio .portfolio_items article.portfolio_post {
+		width: 450px;
+		height: 300px;
+	}
+	.contacts_wrapper .col1 {
+		float: none;
+		width: 100%;
+	}
+	.contacts_wrapper .col1 {
+		clear: both;
+		width: 100%;
+	}
+	.contacts_wrapper .col1 .qrcode_vcard {
+		display: none;
+	}
+	.contacts_wrapper:after {
+		display: none;
+	}
+	.resume_post .resume_header .post_title {
+		float: none;
+		width: auto;
+	}
+	.resume_post .resume_header .resume_position {
+		clear: both;
+		float: none;
+	}
+	.resume_post .resume_period {
+		width: 100px;
+		padding-top: 25px;
+	}
+	.resume_post .extra_wrap {
+		padding-top: 27px;
+	}
+	.skills_sidebar_section {
+		padding: 30px 50px;
+	}
+	.skills_sidebar_section aside.widget {
+		width: 100%;
+		float: left;
+		margin: 0 0 45px 0;
+	}
+}
+
+@media (max-width: 479px) {
+	#page {
+		padding-top: 50px;
+		width: 300px;
+	}
+	#nav_tabs li a {
+		height: 100px;	
+	}
+	#nav_tabs li a span {
+		top: 0;
+		left: 25px;
+	}
+	#nav_tabs li.portfolio a span {
+		top: 0;
+	}
+	#nav_tabs li.contacts a span {
+		left: 25px;
+	}
+	#nav_tabs li {
+		width: 100px;
+	}
+	#profile_photo {
+		width: 100px;
+		height: 100px;
+		min-height: 100px;
+		overflow: hidden;
+	}
+	#profile_name {
+		width: 200px;
+		height: 100px;
+	}
+	#profile_name .name {
+		font-size: 25px !important;
+		line-height: 25px !important;
+		margin-bottom: 4px;
+	}
+	#profile_name .profile_inner {
+		padding: 15px 14px 10px;
+	}
+	#profile_name .pos {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.author_info {
+		padding: 15px 20px;
+	}
+	.author_info .user_desc {
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.phone_num .icon {
+		width: 36px;
+		height: 36px;
+	}
+	.phone_num .icon:after {
+		font-size: 57px;
+		margin-top: -21px;
+	}
+	.phone_num .phone {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.author_info .user_desc {
+		margin-bottom: 28px;
+	}
+	.phone_num .phone {
+		padding-bottom: 6px;
+		padding-top: 10px;
+	}
+	.addition {
+		padding-top: 6px;
+	}
+	.addition span {
+		font-size: 14px;	
+		line-height: 18px;
+	}
+	#splash .social_links ul li a {
+		width: 150px;
+		height: 100px;
+	}
+	#splash .social_links ul li a span {
+		padding-top: 0;
+		margin-top: -5px;
+	}
+	.resume_post .resume_period {
+		width: 60px;
+	}
+	.resume_post .resume_period .period_present {
+		font-size: 12px;
+	}
+	#resume .section-header h2 .icon {
+		width: 36px;
+		height: 36px;
+	}
+	#resume .section-header h2 {
+		font-size: 17px;
+		line-height: 26px;
+		padding: 5px 0 12px 45px;
+		margin-bottom: 0;
+	}
+	#resume .section-header {
+		padding: 32px 20px 25px
+	}
+	#resume .section-header .section_toggle {
+		width: 36px;
+		height: 36px;
+	}
+	#resume .section-header .section_toggle span {
+		margin-top: 9px;
+		height: 18px;
+	}
+	#resume .section-header .section_toggle span img {
+		width: 18px;
+		margin-top: 0px;
+	}
+	#resume .section-header.opened .section_toggle span img {
+		margin-top: -18px;
+	}
+	#resume .section-header h2 .icon:after {
+		font-size: 57px;
+		padding-top: 5px;
+	}
+	.resume_post .extra_wrap {
+		padding: 31px 0 0 20px;
+	}
+	.resume_post .resume_header .post_title .post_title_icon {
+		width: 24px;
+		height: 24px;
+	}
+	.resume_post .resume_header .resume_position .icon {
+		width: 24px;
+		height: 24px;
+	}
+	.resume_post .resume_period {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.resume_post .resume_header .post_title .post_title_icon:after,
+	.resume_post .resume_header .resume_position .icon:after {
+		font-size: 34px;
+		padding-top: 1px;
+	}
+	.resume_post .resume_header .resume_position .icon.icon3:after {
+		font-size: 37px;
+		padding-top: 0;
+	}
+	#resume .section-header h2.icon3 .icon:after {
+		padding-top: 2px;
+	}
+	.resume_post .extra_wrap {
+		padding-top: 17px;
+	}
+	.resume_post .resume_header .post_title {
+		margin-bottom: 12px;
+	}
+	.resume_post .resume_header .post_title,
+	.resume_post .resume_header .resume_position {
+		padding: 5px 0 0 34px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.resume_post .resume_period {
+		padding-top: 16px;
+	}
+	.skills_sidebar_section {
+		padding: 30px 20px;
+	}
+	#portfolio .portfolio_items article.portfolio_post {
+		width: 300px;
+		height: 200px;
+	}
+	#portfolio_iso_filters {
+		padding: 35px 20px;
+	}
+	#portfolio_iso_filters li {
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.contacts_wrapper .col2 .inner {
+		padding: 23px 20px 30px;
+	}
+	.sc_contact_form h3 {
+		font-size: 17px;
+		line-height: 22px;
+	}
+	.resume_buttons {
+		padding: 43px 10px;
+	}
+	.resume_post .resume_header .resume_position .icon.icon2:after {
+		padding-top: 2px;
+	}
+	#resume .section-header h2 .icon.category2:after {
+		padding-top: 3px;
+	}
+}
+
+/****************************************************/

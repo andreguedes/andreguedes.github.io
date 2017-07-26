@@ -194,7 +194,7 @@ a img {
 }
 #nav_tabs li a:hover,
 #nav_tabs li.current a {
-	background: #fff !important;
+	background: #ccc !important;
 }
 #nav_tabs li a span {
 	font-size: 100px;
@@ -202,12 +202,12 @@ a img {
 	display: block;
 	position: absolute;
 	top: 26px;
-	left: 47px;
+	left: 25px;
 	overflow: hidden;
 	font-weight: normal;
 }
 #nav_tabs li.portfolio a span {top: 25px;}
-#nav_tabs li.contacts a span {left: 50px;}
+#nav_tabs li.contacts a span {left: 25px;}
 #nav_tabs li a:hover,
 #nav_tabs li.current a {
 	color: #ccc;
@@ -368,7 +368,7 @@ a img {
 	background: #000000;
 }
 #splash .social_links ul li a:hover {
-	background: #fff;
+	background: #ccc;
 	color: #ccc;
 }
 /***/
